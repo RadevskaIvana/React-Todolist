@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(64, 61, 61);
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App h1{
+  font-size: 50px;
+  font-weight: 800;
+  color: chocolate;
+  padding: 30px;
+  
+}
+.container-input{
+  display: flex;
+  /* padding: 30px; */
+}
+.container-input input{
+  width: 300px;
+  padding: 10px;
+  margin-right: 5px;
+  
+  border: 1px solid rgb(247, 190, 149);
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; 
+  color: white;
+  
+}
+input:focus {
+  border-color:chocolate ; 
+  box-shadow: 0 0 5px rgba(197, 67, 11, 0.5); 
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+button:hover {
+  background-color: rgb(159, 74, 14); /* Darker color on hover */
+}
+.todo-container{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+  
+}
+.card-div{
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: chocolate;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 30px;
+  line-height: 75px;
+  
+  
+}
+.card-div:hover{
+  background-color: rgb(91, 32, 12);
+}
+/* .line{
+  width: 30%;
+
+} */
+hr {
+  background-color: #fff;
+  padding: 0;
+  margin: 40px;
+}
+hr.line {
+    width: 30%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(179, 135, 52, 0.936), rgba(139, 74, 4, 0.932), rgba(179, 135, 52, 0.936));
+  
+}
+.App p{
+  font-size: 20px;
+  color: chocolate;
+}
